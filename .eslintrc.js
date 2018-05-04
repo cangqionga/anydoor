@@ -8,7 +8,7 @@ module.exports = {
     "rules": {
         "indent": [
             "error",
-            "tab"
+            4
         ],
         "linebreak-style": [
             "error",
@@ -18,9 +18,9 @@ module.exports = {
             "error",
             "single"
         ],
-        "semi": [
+        "no-console": [
             "error",
-            "always"
+            {"allow":["info","warn","error"]}
         ]
     }
 };
